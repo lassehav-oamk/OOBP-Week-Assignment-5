@@ -1,5 +1,7 @@
 /** @type {import('jest').Config} */
 {
   "preset": "jest-puppeteer",
-  "setupFilesAfterEnv": ["expect-puppeteer"]
+  "setupFilesAfterEnv": ["expect-puppeteer"],
+  "globalSetup": "jest-environment-puppeteer/setup",
+  "globalTeardown": "jest-environment-puppeteer/teardown"
 }
