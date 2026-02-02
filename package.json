@@ -17,6 +17,6 @@
     "jest-cli": "^29.4.3",
     "jest-environment-jsdom": "^29.4.3",
     "jest-puppeteer": "^7.0.0",
-    "puppeteer": "^19.7.0"
+    "puppeteer": "^24.36.1"
   }
 }
